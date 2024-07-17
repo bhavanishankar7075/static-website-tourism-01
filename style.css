@@ -1,105 +1,102 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+.homepage{
+  text-align: center;
+  background-image: url("https://images.pexels.com/photos/372490/pexels-photo-372490.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  height: 100vh;
+  background-size: cover;
+  background-position: none;
+  background-repeat: no-repeat;
+}
+.homepage-container{
+  background: linear-gradient(to right ,rgb(120, 120, 239),rgb(74, 74, 136));
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 5px;
+}
+.homepage-heading{
+  color: brown;
+  font-weight: bold;
+}
+.homepage-para{
+  font-family: monospace;
+  font-size: 20px;
+  color: chartreuse;
+}
+.homepage-button{
+  height: 40px;
+  width: 120px;
+  color: rgb(120, 239, 122);
+  background: linear-gradient(to right ,rgb(120, 120, 239),rgb(74, 74, 136));
+  border: none;
+  border-radius: 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.homepage-button:hover{
+  background: rgb(160, 79, 73);
+  transition: 0.5s  0s ease-in;
+}
+.favouriteplacescontainer{
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/towerbg.png");
+  height: 100%;
+  background-size: cover;
+  align-items: center;
 
-.bg-container {
-    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/ocean.jpg");
-    background-size: cover;
-    height: 100vh;
+}
+.favouriteplace-heading{
+  padding: 15px;
+  font-family: fantasy;
+  font-weight: bold;
+}
+.tajmahal-container{
+  background: linear-gradient(to right ,rgb(165, 165, 215),rgb(91, 91, 221));
+  padding: 5px;
+  margin: 20px;
+  border-radius: 5px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.favouriteplace-image{
+  height: 120px;
+  width: 100px;
+}
+.btn1{
+  margin: 15px;
+  margin-bottom: 15px;
+}
+.btn1:hover{
+  transition: 0.5s  0s ease-in;
+}
+.tajmahal-card{
+  
+  margin: 10px;
 }
 
-.tourism-card {
-    background-color: white;
-    text-align: center;
-    padding: 10px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+.detailedview-container{
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/seabg.png");
+  background-size: cover;
+  height: 100%;
 }
-
-.button {
-    background-color: #25b1cc;
-    border-radius: 25px;
-    color: white;
-    height: 36px;
-    width: 138px;
-    border-width: 0px;
+.detailedview-heading{
+  padding: 15px;
+  font-weight: bold;
+  color: rgb(86, 39, 39);
+  text-align: center;
 }
-
-.favourite-places-bg-container {
-    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/towerbg.png");
-
-    background-size: cover;
+.tajmahaltext{
+  padding: 15px;
+  background: linear-gradient(to right ,rgb(120, 120, 239),rgb(74, 74, 136));
+  
 }
-
-.favourite-places-heading {
-    color: white;
-    font-family: "Roboto";
-    font-size: 28px;
-    font-weight: bold;
-    padding: 24px;
+.detailedview-card{
+  background-color: white;
+  margin: 15px;
+  border-radius: 10px;
 }
-
-.favourite-place-card-container {
-    background-color: white;
-    border-radius: 8px;
-    padding: 16px;
-    margin: 15px;
+.tajmahaltext-heading{
+  color: rgb(191, 163, 38);
 }
-
-.favourite-place-card-heading {
-    color: #0f0e46;
-    font-family: "Roboto";
-    font-size: 23px;
-    font-weight: bold;
-}
-
-.favourite-place-card-description {
-    color: #6c6b70;
-    font-family: "Roboto";
-    font-size: 13px;
-}
-
-.favourite-place-card-image {
-    width: 80px;
-    height: 100px;
-}
-
-.detailed-view-bg-container {
-    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/seabg.png");
-
-    background-size: cover;
-}
-
-.detailed-view-heading {
-    color: white;
-    font-size: 28px;
-    font-family: 'Roboto';
-    font-weight: bold;
-    padding: 24px;
-    text-align: center;
-}
-
-.detailed-view-card-container {
-    background-color: white;
-    border-bottom-right-radius: 8px;
-    border-bottom-left-radius: 8px;
-    margin: 24px;
-}
-
-.detailed-view-card-heading {
-    color: #0f0e46;
-    font-family: "Roboto";
-    font-weight: bold;
-    font-size: 23px;
-}
-
-
-
-.detailed-view-card-description {
-    font-family: "Roboto";
-    font-size: 13px;
-    color: #6c6b70;
-}
-
-
-.detailed-view-card-text-container {
-    padding: 16px;
+.tajmahaltext-para{
+  color: rgb(203, 219, 29);
+  font-weight: bold;
 }
